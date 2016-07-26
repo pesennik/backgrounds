@@ -1,0 +1,45 @@
+/* TODO: cross browser support? */
+
+@media screen and (orientation: landscape) {
+
+    body {
+        background: url(/backgrounds/001l.jpg) no-repeat center top fixed;
+        background-size: cover;
+    }
+
+    .front {
+        top: 50%;
+        right: 20%;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    body {
+        background: url(/backgrounds/001p.jpg) no-repeat center top fixed;
+        background-size: cover;
+    }
+
+    .front {
+        bottom: 5%;
+        right: 5%
+    }
+}
+
+.front {
+    position: absolute;
+    background-color: #ffffff;
+    border: 1px solid saddlebrown;
+    opacity: 0.5;
+    padding: 20px 40px;
+}
+
+.front .menu-item {
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height: 2em;
+}
+
+.front a {
+    color: black;
+    text-decoration: none;
+}
