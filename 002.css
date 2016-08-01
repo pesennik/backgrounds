@@ -1,0 +1,43 @@
+@media screen and (orientation: landscape) {
+
+    body {
+        background: url(/backgrounds/002l.jpg) no-repeat center top fixed;
+        background-size: cover;
+    }
+
+    .front {
+        top: 55%;
+        left: 15%;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    body {
+        background: url(/backgrounds/002p.jpg) no-repeat center top fixed;
+        background-size: cover;
+    }
+
+    .front {
+        bottom: 5%;
+        left: 5%
+    }
+}
+
+.front {
+    position: absolute;
+    background-color: #ffffff;
+    border: 1px solid slategray;
+    opacity: 0.5;
+    padding: 20px 40px;
+}
+
+.front .menu-item {
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height: 2em;
+}
+
+.front a {
+    color: black;
+    text-decoration: none;
+}
