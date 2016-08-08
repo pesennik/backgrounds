@@ -1,34 +1,32 @@
-/* TODO: cross browser support? */
-
 @media screen and (orientation: landscape) {
 
     body {
-        background: url(001l.jpg) no-repeat center top fixed;
+        background: url(003l.jpg) no-repeat center top fixed;
         background-size: cover;
     }
 
     .front {
-        top: 50%;
-        right: 20%;
+        bottom: 10%;
+        right: 5%;
     }
 }
 
 @media screen and (orientation: portrait) {
     body {
-        background: url(001p.jpg) no-repeat center top fixed;
+        background: url(003p.jpg) no-repeat center top fixed;
         background-size: cover;
     }
 
     .front {
         bottom: 5%;
-        right: 5%
+        left: 5%
     }
 }
 
 .front {
     position: absolute;
-    background-color: #ffffff;
-    border: 1px solid saddlebrown;
+    background-color: black;
+    border: 1px solid slategray;
     opacity: 0.5;
     padding: 20px 40px;
 }
@@ -37,9 +35,10 @@
     font-size: 22px;
     text-transform: uppercase;
     line-height: 2em;
+    color: white;
 }
 
 .front a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
